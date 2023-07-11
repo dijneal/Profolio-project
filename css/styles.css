@@ -117,52 +117,68 @@ p {
     font-size: 64px;
   }
 
-  .aboutme-section {
+  .content-section {
     text-align: center;
     padding: 0 auto;
   }
 }
 
-.aboutme-section h1 {
+.content-section h1 {
   font-size: 64px;
   line-height: 80px;
   text-align: center;
+  font-family: var(--heading-font);
 }
 
-.aboutme-section h2 {
+.content-section h2 {
   font-size: 18px;
   font-family: var(--secondary--font);
   text-align: center;
 }
 
-.aboutme-section p {
+.content-section h3 {
+  font-size: 24px;
+  font-family: var(--secondary--font);
+}
+
+.content-section p {
   font-weight: normal;
+  font-family: var(--secondary--font);
   font-size: 16px;
   line-height: 30px;
 }
 
-.aboutme-section {
+.content-section {
   padding: 200px 20px;
 }
 
-.aboutme-content {
+.content {
   margin: 0px 15px;
   text-align: center;
 }
 
-.aboutme-section img {
-  padding: 25px;
+.content-section .headshot {
+  padding: 15px;
   max-width: 400px;
   border-radius: 10%;
 }
 
-.aboutme-section a {
+.content-section a {
   font-family: var(--secondary--font);
   background-color: var(--second-accent-color);
-  color: white
+  color: white;
   font-weight: medium;
   font-size: 18px;
   border-radius: 4px;
   line-height: 30px;
   padding: 10px 25px;
+}
+
+.content-section a:hover {
+  background-color: var(--accent-color);
+  color: var(--second-accent-color);
+}
+
+.content-section .project {
+  border-radius: 5%;
 }
