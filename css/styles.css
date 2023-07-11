@@ -116,4 +116,53 @@ p {
   .intro h1 {
     font-size: 64px;
   }
+
+  .aboutme-section {
+    text-align: center;
+    padding: 0 auto;
+  }
+}
+
+.aboutme-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.aboutme-section h2 {
+  font-size: 18px;
+  font-family: var(--secondary--font);
+  text-align: center;
+}
+
+.aboutme-section p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.aboutme-section {
+  padding: 200px 20px;
+}
+
+.aboutme-content {
+  margin: 0px 15px;
+  text-align: center;
+}
+
+.aboutme-section img {
+  padding: 25px;
+  max-width: 400px;
+  border-radius: 10%;
+}
+
+.aboutme-section a {
+  font-family: var(--secondary--font);
+  background-color: var(--second-accent-color);
+  color: white
+  font-weight: medium;
+  font-size: 18px;
+  border-radius: 4px;
+  line-height: 30px;
+  padding: 10px 25px;
 }
