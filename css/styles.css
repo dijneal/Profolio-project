@@ -182,3 +182,7 @@ p {
 .content-section .project {
   border-radius: 5%;
 }
+
+.contact {
+  text-align: center;
+}
