@@ -163,7 +163,7 @@ p {
   border-radius: 10%;
 }
 
-.content-section a {
+.project-link {
   font-family: var(--secondary--font);
   background-color: var(--second-accent-color);
   color: white;
@@ -174,7 +174,7 @@ p {
   padding: 10px 25px;
 }
 
-.content-section a:hover {
+.project-link:hover {
   background-color: var(--accent-color);
   color: var(--second-accent-color);
 }
@@ -185,4 +185,23 @@ p {
 
 .contact {
   text-align: center;
+}
+
+.contact-link {
+  color: var(--secondary-color);
+  font-family: var(--secondary--font);
+  font-weight: medium;
+  font-size: 18px;
+}
+
+.contact-info {
+  margin: 20px 0px;
+}
+.logo {
+  max-width: 70px;
+  margin: 0px 30px;
+}
+
+.active {
+  color: var(--second-accent-color) !important;
 }
