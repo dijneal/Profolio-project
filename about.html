@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Learn more about DiJonnae." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>DiJonnae - About Me</title>
     <link
       rel="stylesheet"
@@ -39,7 +41,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"></a>
+      <a class="navbar-brand" href="#" title="logo"></a>
       <img src="images/logo.png" alt="logo" class="logo" />
       <button
         class="navbar-toggler"
@@ -55,18 +57,20 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="/"
+            <a class="nav-link" href="/" title="Home"
               >Home<span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/about.html">About</a>
+            <a class="nav-link active" href="/about.html" title="About"
+              >About</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/work.html">Projects</a>
+            <a class="nav-link" href="/work.html" title="Projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact</a>
+            <a class="nav-link" href="/contact.html" title="Contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -97,7 +101,11 @@
               I can go.
             </p>
 
-            <a href="/work.html" class="btn btn-light project-link">
+            <a
+              href="/work.html"
+              class="btn btn-light project-link"
+              title="Projects"
+            >
               View Projects</a
             >
           </div>
@@ -110,6 +118,48 @@
           />
         </div>
       </div>
+    </div>
+
+    <div class="container">
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between contact-footer mb-4"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-light contact-button"
+              title="Contact DiJonnae"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:dijneal93@gmail.com"
+            class="email-link"
+            title="Contact Email"
+            >dijneal93@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href=""> <i class="fa-regular fa-envelope" title="Email"></i></a>
+          <a href="https://github.com/dijneal" target="_blank" title="GitHub">
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/dijonnae-neal/"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
