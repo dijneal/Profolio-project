@@ -121,6 +121,14 @@ p {
     text-align: center;
     padding: 0 auto;
   }
+
+  footer .contact-box {
+    padding: 20px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
 }
 
 .content-section h1 {
@@ -204,4 +212,64 @@ p {
 
 .active {
   color: var(--second-accent-color) !important;
+}
+
+footer {
+  margin: 60px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-family: var(--secondary--font);
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--second-accent-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--second-accent-color);
+  background-color: var(--accent-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--second-accent-color);
+  transition: all 150ms ease-in-out;
+}
+
+footer .contact-box h4 {
+  font-family: var(--heading-font);
+  font-size: 48px;
+  margin: 0;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+footer .contact-button {
+  margin: 15px;
+  font-family: var(--secondary--font);
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  background-color: var(--second-accent-color);
+}
+
+footer .contact-button:hover {
+  background-color: var(--accent-color);
+  color: var(--second-accent-color);
+}
+
+footer .contact-box {
+  background-color: var(--accent-color);
+  padding: 30px 130px;
+  border-radius: 10px;
 }
